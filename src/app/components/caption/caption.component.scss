@@ -1,0 +1,7 @@
+@import '~styles/foundation';
+@import '~styles/shared';
+
+:host {
+  @include text-style-caption;
+  margin: 0;
+}

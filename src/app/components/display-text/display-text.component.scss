@@ -1,0 +1,22 @@
+@import '~styles/foundation';
+@import '~styles/shared';
+
+:host {
+  margin: 0;
+}
+
+:host(.sizeSmall) {
+  @include text-style-display-small;
+}
+
+:host(.sizeMedium) {
+  @include text-style-display-medium;
+}
+
+:host(.sizeLarge) {
+  @include text-style-display-large;
+}
+
+:host(.sizeExtraLarge) {
+  @include text-style-display-x-large;
+}

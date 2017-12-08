@@ -1,0 +1,32 @@
+<header class="Header">
+  <plrs-pagination></plrs-pagination>
+  <div class="MainContent">
+    <div class="TitleAndActions">
+      <div class="Title" *ngIf="title">
+        <h1 class="sizeLarge" plrs-display-text>{{title}}</h1>
+      </div>
+      <div class="Actions">
+        <div class="PrimaryAction">
+          <button type="button" class="Polaris-Button Polaris-Button--primary Polaris-Button--disabled" disabled=""></button>
+        </div>
+        <div class="SecondaryActions">
+          <div class="Rollup">
+            <div>
+              <button type="button" class="Polaris-Button" tabindex="0" aria-controls="Popover5" aria-owns="Popover5" aria-haspopup="true" aria-expanded="false"></button>
+            </div>
+          </div>
+          <div class="IndividualActions">
+            <button class="Action" type="button">Duplicate</button>
+            <button class="Action" type="button">View on your store</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="PrimaryAction">
+      <button type="button" class="Polaris-Button Polaris-Button--primary Polaris-Button--disabled" disabled=""></button>
+    </div>
+  </div>
+</header>
+<div class="Content">
+  <ng-content></ng-content>
+</div>
